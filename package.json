@@ -1,0 +1,28 @@
+{
+  "name": "travis-ci-test",
+  "version": "1.0.0",
+  "description": "A simple example for testing travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhernandog/travis-ci-test.git"
+  },
+  "keywords": [
+    "travis",
+    "ci",
+    "test"
+  ],
+  "author": "Rodrigo Hernando",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhernandog/travis-ci-test/issues"
+  },
+  "homepage": "https://github.com/rhernandog/travis-ci-test#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}
